@@ -26,6 +26,7 @@ ol{
 .listInicio{
 	display: inline-block;
 	list-style: none;
+    text-decoration: none;
 	margin: 0.5em;
 	background-color: transparent;
 }
