@@ -1,0 +1,18 @@
+*{
+    size: 15px;
+    padding: 0em;
+    background-color: #8a2be2;
+}
+
+a{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+p{
+    background-color: #000000;
+    color: #ffd700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}

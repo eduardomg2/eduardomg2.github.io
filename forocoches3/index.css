@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+*{
+    size: 10px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f5f5dc;
+    margin: 0em;
+    padding: 0em;
+}
+
+#titulo{
+    color: #ffffff;
+	background-color: #000000c2;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Arimo', sans-serif;
+}
+
+ol{
+	background-color: #000000c2;
+	text-align: center;
+}
+
+.listInicio{
+	display: inline-block;
+	list-style: none;
+	margin: 0.5em;
+	background-color: transparent;
+}
+		
+.articulos{
+	display: block;
+	width: max-content;
+	padding: 0.5em;
+	background-color: transparent;
+	color: #FFFFFF;
+	margin: 0.5em #ffffff00;
+	text-align: center;
+}
+
+.articulos:hover{
+	cursor: hand;
+	text-decoration: underline;
+}
+
+.post{
+    background-color: #000000c2;
+    margin: 2em;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.textPost{
+    background-color: #ffffff00;
+    color: #ffffff;
+}
+
+.imgPost{
+    display: block;
+    max-width: fit-content;
+    width: 50em;
+    margin: auto;
+    background-color: #ffffff00;
+    padding: 00.5em;
+}
+
+#arriba{
+    display: block;
+    width: 4.5em;
+    background-color: #ffffff00;
+    position: absolute;
+    left: 90%;
+    top: 88em;
+    z-index: 100;
+}
+
+footer{
+    background-color: #000000c2;
+}
+
+.textFoot{
+    background-color: #ffffff00;
+    font-size: 1em;
+    padding: 1em;
+    color: #ffffff;
+}
+
+.enlace{
+	display: inline;
+	background-color: #ffffff00;
+    font-size: 1em;
+	padding-top: 2em;
+    padding: 1em;
+    color: #ffffff;
+	text-decoration: none;
+}
+
+.enlace:hover{
+	cursor: hand;
+	text-decoration: underline;
+}
