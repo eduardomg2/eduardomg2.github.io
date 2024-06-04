@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutas Loli F.C. - Equipo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Frutas Loli F.C." class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="equipo.html">Equipo</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="patrocinadores.html">Patrocinadores</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="equipo">
+            <h2>Equipo</h2>
+            <div class="subsection">
+                <h3>Alineación</h3>
+                <p>Próximamente...</p>
+            </div>
+            <div class="subsection">
+                <h3>Directiva</h3>
+                <p>Próximamente...</p>
+            </div>
+            <div class="subsection">
+                <h3>Aficionados (Verduleros)</h3>
+                <form id="aficionados-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Registrarse</button>
+                </form>
+                <div id="lista-aficionados">
+                    <h4>Lista de Aficionados</h4>
+                    <ul id="aficionados-list">
+                        <!-- Aficionados se mostrarán aquí -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Frutas Loli F.C. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
